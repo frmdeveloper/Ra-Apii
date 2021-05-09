@@ -14,8 +14,9 @@ author: @rayyreall
 const Ra = require('ra-api')
 
 (async () => {
-   const data = await Ra.RandomCerpen();
-   console.log(data)
+  await Ra.RandomCerpeni().then(
+		res => console.log(res)
+	)
 })()
 ```
 
@@ -25,8 +26,9 @@ const Ra = require('ra-api')
 const Ra = require('ra-api')
 
 (async () => {
-   const data = await Ra.emoji('😂');
-   console.log(data)
+   await Ra.emoji('😍').then(
+		res => console.log(res)
+	)
 })()
 ```
 
@@ -36,8 +38,9 @@ const Ra = require('ra-api')
 const Ra = require('ra-api')
 
 (async () => {
-   const data = await Ra.stickerSearch('pentol');
-   console.log(data)
+ await Ra.stickerSearch('pentol').then(
+	 res => console.log(res)
+ )
 })()
 ```
 
@@ -47,8 +50,9 @@ const Ra = require('ra-api')
 const Ra = require('ra-api')
 
 (async () => {
-   const data = await Ra.ManggaToon('Boss Nakal');
-   console.log(data)
+ await Ra.ManggaToon('Boss Nakal').then(
+	 res => console.log(res)
+ )
 })()
 ```
 
@@ -58,8 +62,9 @@ const Ra = require('ra-api')
 const Ra = require('ra-api')
 
 (async () => {
-   const data = await Ra.RamalJadian(tanggal, bulan, tahun);
-   console.log(data)
+   await Ra.RamalJadian(tanggal, bulan, tahun).then(
+	 res => console.log(res)
+ )
 })()
 ```
 
@@ -69,8 +74,8 @@ const Ra = require('ra-api')
 const Ra = require('ra-api')
 
 (async () => {
-   const data = await Ra.Pantun();
-   console.log(data)
+   const pantun = await Ra.Pantun()
+   console.log(pantun)
 })()
 ```
 
@@ -89,8 +94,8 @@ querry:
 const Ra = require('ra-api')
 
 (async () => {
-   const data = await Ra.trutdare(querry);
-   console.log(data)
+    const truth = await Ra.trutdare('truth id')
+	console.log(trurh)
 })()
 ```
 
@@ -102,8 +107,9 @@ const Ra = require('ra-api')
 const url = `https://123movies.mom/film/impractical-jokers-after-party-season-2-xQ7ly/`
 
 (async () => {
-   const data = await Ra.infoFilm123(url);
-   console.log(data)
+ await Ra.infoFilm123(url).then(
+	 res => console.log(res)
+ )
 })()
 ```
 
@@ -114,8 +120,9 @@ const Ra = require('ra-api')
 const judul = `joker`
 
 (async () => {
-   const data = await Ra.SearchFilm(judul);
-   console.log(data)
+await Ra.SearchFilm(judul).then(
+	 res => console.log(res)
+ )
 })()
 ```
 

@@ -10,7 +10,7 @@ const {
 	SearchFilm
 } = require('./lib')
 
-exports.RandomCerpeni = RandomCerpen
+exports.RandomCerpen = RandomCerpen
 exports.emoji = emoji
 exports.stickerSearch = stickerSearch
 exports.ManggaToon =  ManggaToon
