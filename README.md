@@ -126,6 +126,61 @@ await Ra.SearchFilm(judul).then(
 })()
 ```
 
+- Lirik Lagu
+
+```
+const Ra = require('ra-api')
+const judul = `Surat cinta untuk starla`
+
+(async () => {
+	await Ra.Liriklagu(judul).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- Otaku desu
+
+```
+const Ra = require('ra-api')
+const judul = `Love`
+
+
+(async () => {
+	await Ra.Otakudesu(judul).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- Wikipedia
+
+```
+const Ra = require('ra-api')
+const judul = `singa`
+
+
+(async () => {
+	await Ra.wikipedia(judul).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- Corona
+
+```
+const Ra = require('ra-api')
+const negara= `indonesia`
+
+
+(async () => {
+	await Ra.corona(negara).then(
+		res => console.log(res)
+	)
+})()
+```
+
 ## thank you for visiting
 * [`INSTAGRAM`](https://www.instagram.com/rayyreall/) 
 * [`PAYPAL`](https://www.paypal.me/rayyreall) 
