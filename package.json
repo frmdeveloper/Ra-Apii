@@ -1,6 +1,6 @@
 {
   "name": "ra-api",
-  "version": "1.2.0",
+  "version": "1.2.4",
   "description": "bye @rayyreall",
   "main": "index.js",
   "directories": {

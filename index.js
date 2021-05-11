@@ -12,7 +12,11 @@ const {
 	Liriklagu,
 	Otakudesu,
 	wikipedia,
-	corona
+	corona,
+	cuaca,
+	FilmApik23,
+	Gempa,
+	cnn
 } = require('./lib')
 
 exports.RandomCerpen = RandomCerpen
@@ -29,3 +33,7 @@ exports.Liriklagu = Liriklagu
 exports.Otakudesu = Otakudesu
 exports.wikipedia = wikipedia
 exports.corona = corona
+exports.cuaca = cuaca
+exports.FilmApik23 = FilmApik23
+exports.Gemoa = Gempa
+exports.cnn = cnn

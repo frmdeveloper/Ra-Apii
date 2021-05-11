@@ -171,11 +171,65 @@ const judul = `singa`
 
 ```
 const Ra = require('ra-api')
-const negara= `indonesia`
+const negara = `indonesia`
 
 
 (async () => {
 	await Ra.corona(negara).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- Cuaca
+
+```
+const Ra = require('ra-api')
+const wilayah = `kalimantan selatan`
+
+
+(async () => {
+	await Ra.cuaca(wilayah).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- FilmApik23
+
+```
+const Ra = require('ra-api')
+const namafilm = `bad boy`
+
+
+(async () => {
+	await Ra.FilmApik23(namafilm).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- Gempa
+
+```
+const Ra = require('ra-api')
+
+
+(async () => {
+	await Ra.Gempa().then(
+		res => console.log(res)
+	)
+})()
+```
+
+- cnn
+
+```
+const Ra = require('ra-api')
+
+
+(async () => {
+	await Ra.cnn().then(
 		res => console.log(res)
 	)
 })()
