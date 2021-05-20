@@ -16,7 +16,10 @@ const {
 	cuaca,
 	FilmApik23,
 	Gempa,
-	cnn
+	cnn,
+	TiktokDownloader,
+	uploadFile,
+	ytPlay
 } = require('./lib')
 
 exports.RandomCerpen = RandomCerpen
@@ -35,5 +38,8 @@ exports.wikipedia = wikipedia
 exports.corona = corona
 exports.cuaca = cuaca
 exports.FilmApik23 = FilmApik23
-exports.Gemoa = Gempa
+exports.Gempa = Gempa
 exports.cnn = cnn
+exports.TiktokDownloader = TiktokDownloader
+exports.uploadFile =  uploadFile
+exports.ytPlay = ytPlay
