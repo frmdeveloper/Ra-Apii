@@ -12,7 +12,8 @@
   "dependencies": {
 	"cheerio": "^1.0.0-rc.9",
 	"axios": "^0.21.1",
-	"yt-search": "^2.8.0"
+	"yt-search": "^2.8.0",
+	"form-data": "^4.0.0"
   },
   "repository": {
     "type": "git",
