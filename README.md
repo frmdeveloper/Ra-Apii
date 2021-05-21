@@ -288,6 +288,32 @@ const Ra = require('ra-api')
 })()
 ```
 
+- IG DOWNLOADER
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	const url = `https://www.instagram.com/p/CPFjeKHFwNc/?utm_source=ig_web_copy_link`
+	await Ra.igDownloader(url).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- SSTIK IO (tiktok music, nowm)
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	const url = `https://www.instagram.com/p/CPFjeKHFwNc/?utm_source=ig_web_copy_link`
+	await Ra.ssstik_io(url).then(
+		res => console.log(res)
+	)
+})()
+```
+
 ## thank you for visiting
 * [`INSTAGRAM`](https://www.instagram.com/rayyreall/) 
 * [`PAYPAL`](https://www.paypal.me/rayyreall) 

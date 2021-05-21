@@ -19,7 +19,9 @@ const {
 	cnn,
 	TiktokDownloader,
 	uploadFile,
-	ytPlay
+	ytPlay,
+	igDownloader,
+	ssstik_io
 } = require('./lib')
 
 exports.RandomCerpen = RandomCerpen
@@ -43,3 +45,5 @@ exports.cnn = cnn
 exports.TiktokDownloader = TiktokDownloader
 exports.uploadFile =  uploadFile
 exports.ytPlay = ytPlay
+exports.igDownloader = igDownloader
+exports.ssstik_io =  ssstik_io
