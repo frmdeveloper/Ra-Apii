@@ -307,7 +307,7 @@ const Ra = require('ra-api')
 const Ra = require('ra-api')
 
 (async () => {
-	const url = `https://www.instagram.com/p/CPFjeKHFwNc/?utm_source=ig_web_copy_link`
+	const url = `https://www.tiktok.com/@weeekly/video/6962439233176980737?lang=en&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6912436942198244866`
 	await Ra.ssstik_io(url).then(
 		res => console.log(res)
 	)
